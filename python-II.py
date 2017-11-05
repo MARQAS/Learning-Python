@@ -11,6 +11,6 @@ print(performances)
 performances.remove('Bearded Lady')
 performances.remove('Tiniest Man')
 print(performances)
-# del
+# del is used when index is know but value is unknown
 del performances[1]
 print(performances)
