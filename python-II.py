@@ -11,3 +11,6 @@ print(performances)
 performances.remove('Bearded Lady')
 performances.remove('Tiniest Man')
 print(performances)
+# del
+del performances[1]
+print(performances)
