@@ -26,3 +26,36 @@ print(performances)
 performances['Enchanted Elephants'] = '6:00pm'
 # items can be deleted using del
 del performances['Ventriloquism']
+showtime = performances.get('Enchanted Elephants')
+if showtime==None:
+	print("doesn't exist")
+else:
+	print(showtime)
+
+
+#get() example
+performances = {'Ventriloquism':'9:00am', 
+               'Snake Charmer': '12:00pm', 
+               'Amazing Acrobatics': '2:00pm', 
+               'Bearded Lady':'5:00pm'}
+showtime = performances.get('Bearded Lady')
+if showtime==None:
+    print("Performance doesn't exist")
+else:
+    print("The time of the Bearded Lady show is", showtime)
+
+# Comparing: 
+# list[a,b,c] != list[b,c,a] (Index matters)
+# Dict{a:1,b:2,c:3} == Dict{b:2,a:1,c:3} ( Index doesn't matter as long as key:value pairs are same)
+
+#Loops
+#For : for list in lists 
+word = 'Welcome!'
+for w in word:
+    print(w)
+#Use the built-in function range() to generate numbers from 0 to 19.
+my_list = range(20)
+#print 5 number bw 1 & 53
+import random
+for i in range(5):
+    print(random.randint(1,53))    
