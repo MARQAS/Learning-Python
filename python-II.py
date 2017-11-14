@@ -58,4 +58,47 @@ my_list = range(20)
 #print 5 number bw 1 & 53
 import random
 for i in range(5):
-    print(random.randint(1,53))    
+    print(random.randint(1,53))
+
+# For loop for dictionaries (to print key value pairs)
+performances = {'Ventriloquism':'9:00am', 
+                'Snake Charmer': '12:00pm', 
+                'Amazing Acrobatics': '2:00pm', 
+                'Enchanted Elephants':'5:00pm'}
+for name,time in performances.items():
+    print(name, ': ', time, sep='')
+#While Loop
+import random
+num = random.randint(1,10)
+
+guess = int(input('Guess a number between 1 and 10'))
+while guess!=num:
+    guess=int(input('Guess again'))
+print('You win!') 
+
+#example
+import random
+
+num = random.randint(1,10)
+
+guess = int(input('Guess a number between 1 and 10'))
+times=1
+while guess != num:
+    if times==3:
+        break
+    guess = int(input('Guess again'))
+    times=times+1
+  
+if guess==num:
+    print('You win!')
+else:
+    print('You lose! The number was ',num)
+
+# Functions
+
+def lotto_numbers():
+    # code in the function goes here
+    lotto_nums=[]
+    for i in range(5):
+        lotto_nums.append(i)
+    return lotto_nums
