@@ -15,3 +15,7 @@ Let's Learn Python
 <strong>Functions [functions.py]</strong>
 * simple functions
 * main
+
+<strong>Files [files.py]</strong>
+* Write into a file
+* Read from a file
