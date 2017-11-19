@@ -19,3 +19,7 @@ Let's Learn Python
 <strong>Files [files.py]</strong>
 * Write into a file
 * Read from a file
+
+<strong>Exceptions [exceptions.py]</strong>
+* Try
+* Except
