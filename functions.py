@@ -8,14 +8,14 @@ def lotto_numbers():
 
 numbers=lotto_numbers()
 print(numbers)
-#main
+# main
 def main():
     # code in the main function goes here
     numbers = lotto_numbers()
     print(numbers)
 main()
 
-#Example Code
+# Example Code
 import random
 def guessing_game():
     num = random.randint(1, 10)

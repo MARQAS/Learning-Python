@@ -1,12 +1,12 @@
 # Loops
-#IF
+# IF
 knights = 2
 if knights < 3 :
     print('Retreat')
 
 else:
     print('Truce?')
-#example    
+# example    
 performances = {'Ventriloquism':'9:00am', 
                'Snake Charmer': '12:00pm', 
                'Amazing Acrobatics': '2:00pm', 
@@ -17,13 +17,13 @@ if showtime==None:
 else:
     print("The time of the Bearded Lady show is", showtime)
 
-#For : for list in lists 
+# For : for list in lists 
 word = 'Welcome!'
 for w in word:
     print(w)
-#Use the built-in function range() to generate numbers from 0 to 19.
+# Use the built-in function range() to generate numbers from 0 to 19.
 my_list = range(20)
-#print 5 number bw 1 & 53
+# print 5 number bw 1 & 53
 import random
 for i in range(5):
     print(random.randint(1,53))
@@ -33,10 +33,11 @@ performances = {'Ventriloquism':'9:00am',
                 'Snake Charmer': '12:00pm', 
                 'Amazing Acrobatics': '2:00pm', 
                 'Enchanted Elephants':'5:00pm'}
+# Use for key,value in dictionary.items() to get the key=>value pairs in for loops    
 for name,time in performances.items():
     print(name, ': ', time, sep='')
 
-#While Loop
+# While Loop
 import random
 num = random.randint(1,10)
 
@@ -45,7 +46,7 @@ while guess!=num:
     guess=int(input('Guess again'))
 print('You win!') 
 
-#example
+# example
 import random
 
 num = random.randint(1,10)
